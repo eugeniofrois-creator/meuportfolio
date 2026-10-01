@@ -1,33 +1,141 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Guia de identidade visual da EC WebDev — logo, cores, tipografia e opções de personalização.">
-<title>EC WebDev — Identidade Visual</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Identidade visual interativa da EC WebDev: cores, tipografia, componentes, estilos e laboratório de marca.">
+<title>EC WebDev — Identidade Visual Interativa</title>
 <link rel="stylesheet" href="ec-webdev.css">
 <style>
-.id-page{min-height:100vh;background:#020812}.id-main{padding:80px 0}.id-hero{padding:55px;border:1px solid rgba(22,184,255,.2);border-radius:30px;background:radial-gradient(circle at 80% 20%,rgba(22,184,255,.14),transparent 32%),#061322}.id-hero img{width:min(320px,100%);margin-bottom:20px}.id-hero h1{font-size:clamp(2.8rem,6vw,5.5rem);line-height:.95;letter-spacing:-.06em;margin:0 0 18px}.id-hero p{max-width:720px;color:#8ea5b8;line-height:1.8}.id-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}.id-card{padding:28px;border:1px solid var(--ec-line);border-radius:22px;background:#061322}.id-card h2{margin-top:0}.id-card p,.id-card li{color:#8da4b8;font-size:.82rem;line-height:1.75}.swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.swatch{border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}.swatch-color{height:80px}.swatch-info{padding:11px;background:#081a2b}.swatch-info b{display:block;font-size:.72rem}.swatch-info span{display:block;color:#71899d;font-size:.64rem;margin-top:3px}.type-sample{padding:18px;border:1px solid var(--ec-line);border-radius:15px;background:#071625;margin-top:10px}.type-sample h3{margin:0;font-size:1.8rem}.type-sample p{margin:7px 0 0}.choice-list{display:grid;gap:9px}.choice-list div{padding:14px 16px;border-radius:14px;background:#071625;border:1px solid var(--ec-line)}.choice-list b{display:block}.choice-list span{color:#8198ab;font-size:.7rem}.id-footer{padding:30px 0;border-top:1px solid var(--ec-line);color:#71889d}.id-footer a{color:var(--ec-blue)}
-@media(max-width:760px){.id-main{padding:45px 0}.id-hero{padding:30px}.id-grid{grid-template-columns:1fr}.swatches{grid-template-columns:1fr 1fr}}
+:root{--preview-bg:#020812;--preview-surface:#061323;--preview-primary:#16B8FF;--preview-secondary:#176CFF;--preview-accent:#62DCFF;--preview-text:#F3F8FC}
+.id-page{min-height:100vh;background:#020812}.id-main{padding:72px 0}.id-hero{padding:48px;border:1px solid rgba(22,184,255,.2);border-radius:30px;background:radial-gradient(circle at 80% 20%,rgba(22,184,255,.14),transparent 32%),#061322}.id-hero img{width:min(290px,100%);margin-bottom:18px}.id-hero h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:.95;letter-spacing:-.06em;margin:0 0 18px}.id-hero p{max-width:780px;color:#8ea5b8;line-height:1.8}.id-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.id-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.id-tab{border:1px solid var(--ec-line);background:#061322;color:#a8bdce;padding:11px 15px;border-radius:999px;cursor:pointer}.id-tab.active,.id-tab:hover{border-color:#16B8FF;color:#fff;background:rgba(22,184,255,.1)}.id-panel{display:none}.id-panel.active{display:block}.id-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.id-card{padding:28px;border:1px solid var(--ec-line);border-radius:22px;background:#061322}.id-card h2{margin-top:0}.id-card p,.id-card li{color:#8da4b8;font-size:.84rem;line-height:1.75}.swatches{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.swatch{border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.08);cursor:pointer}.swatch-color{height:72px}.swatch-info{padding:11px;background:#081a2b}.swatch-info b{display:block;font-size:.72rem}.swatch-info span{display:block;color:#71899d;font-size:.64rem;margin-top:3px}.interactive{display:grid;grid-template-columns:300px 1fr;gap:18px}.controls{display:grid;gap:12px}.control{padding:14px;border:1px solid var(--ec-line);border-radius:16px;background:#071625}.control label{display:block;font-size:.72rem;color:#8da4b8;margin-bottom:7px}.control select,.control input[type=color],.control input[type=text]{width:100%;box-sizing:border-box;border:1px solid #17334b;background:#04101c;color:#eaf6ff;border-radius:10px;padding:10px}.control input[type=color]{height:42px;padding:4px}.check-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.check{font-size:.72rem;color:#9cb1c0}.brand-preview{min-height:520px;border-radius:24px;border:1px solid rgba(255,255,255,.1);overflow:hidden;background:var(--preview-bg);color:var(--preview-text);position:relative}.brand-nav{padding:18px 22px;border-bottom:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:space-between}.brand-logo{font-weight:900;letter-spacing:-.05em}.brand-logo span{color:var(--preview-primary)}.brand-nav small{color:#8ea5b8}.brand-hero{padding:55px 45px;background:radial-gradient(circle at 75% 20%,color-mix(in srgb,var(--preview-primary) 25%,transparent),transparent 35%),linear-gradient(135deg,var(--preview-surface),var(--preview-bg))}.brand-hero h3{font-size:clamp(2rem,4vw,4rem);line-height:1;margin:0 0 12px;max-width:720px}.brand-hero p{color:#9db1c0;max-width:650px;line-height:1.7}.brand-btn{display:inline-block;margin-top:18px;padding:12px 17px;border-radius:12px;background:var(--preview-primary);color:#001018;font-weight:800}.brand-sections{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:20px 28px}.brand-block{border:1px solid rgba(255,255,255,.08);padding:18px;border-radius:15px;background:rgba(255,255,255,.03)}.brand-block b{display:block;margin-bottom:6px}.brand-block span{font-size:.72rem;color:#839aaa}.live-note{margin-top:10px;color:#71899d;font-size:.72rem}.font-sample{padding:22px;border:1px solid var(--ec-line);border-radius:16px;background:#071625;margin-top:10px}.font-sample h3{margin:0;font-size:2rem}.token-row{display:grid;grid-template-columns:160px 1fr;gap:10px;padding:12px 0;border-bottom:1px solid var(--ec-line);font-size:.8rem}.token-row code{color:#62DCFF}.copy-btn{cursor:pointer;border:1px solid #1c425e;background:#081a2b;color:#bfeaff;padding:8px 10px;border-radius:9px;font-size:.7rem}.choice-list{display:grid;gap:9px}.choice-list div{padding:14px 16px;border-radius:14px;background:#071625;border:1px solid var(--ec-line)}.choice-list b{display:block}.choice-list span{color:#8198ab;font-size:.7rem}.id-footer{padding:30px 0;border-top:1px solid var(--ec-line);color:#71889d}.id-footer a{color:var(--ec-blue)}
+@media(max-width:850px){.interactive{grid-template-columns:1fr}.id-grid{grid-template-columns:1fr}.brand-sections{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.id-main{padding:42px 0}.id-hero{padding:28px}.swatches{grid-template-columns:1fr 1fr}.brand-hero{padding:38px 25px}.brand-sections{grid-template-columns:1fr}.token-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body class="ec-page id-page">
 <header class="ec-top"><div class="ec-container ec-nav"><a href="landing-page.html"><img class="ec-logo" src="assets/ec-webdev-logo.svg" alt="EC WebDev"></a><nav class="ec-menu"><a href="landing-page.html#inicio">Início</a><a href="landing-page.html#servicos">Serviços</a><a class="active" href="identidade-visual.html">Identidade</a><a href="landing-page.html#concorrentes">Mercado</a></nav><a class="ec-nav-cta" href="landing-page.html#contato">Fale comigo</a></div></header>
+
 <main class="id-main"><div class="ec-container">
-<section class="id-hero"><img src="assets/ec-webdev-logo.svg" alt="Logo EC WebDev"><div class="ec-label">Guia de identidade visual</div><h1>Uma marca com espaço para crescer.</h1><p>Este documento apresenta a identidade visual da EC WebDev e também serve como catálogo de escolhas para futuros projetos: cores, tipografia, estilo de interface, componentes e possibilidades de personalização.</p><div class="ec-actions"><a class="ec-btn primary" href="docs/EC-WebDev-Identidade-Visual.docx" download>Baixar documento DOCX →</a><a class="ec-btn secondary" href="landing-page.html">Voltar para a Landing Page</a></div></section>
-<div class="id-grid">
-<section class="id-card"><h2>Paleta principal</h2><p>A identidade atual combina tecnologia, confiança e contraste.</p><div class="swatches">
-<div class="swatch"><div class="swatch-color" style="background:#020812"></div><div class="swatch-info"><b>Midnight</b><span>#020812</span></div></div>
-<div class="swatch"><div class="swatch-color" style="background:#061323"></div><div class="swatch-info"><b>Navy</b><span>#061323</span></div></div>
-<div class="swatch"><div class="swatch-color" style="background:#16B8FF"></div><div class="swatch-info"><b>Electric Blue</b><span>#16B8FF</span></div></div>
-<div class="swatch"><div class="swatch-color" style="background:#176CFF"></div><div class="swatch-info"><b>Royal Blue</b><span>#176CFF</span></div></div>
-<div class="swatch"><div class="swatch-color" style="background:#62DCFF"></div><div class="swatch-info"><b>Cyan</b><span>#62DCFF</span></div></div>
-<div class="swatch"><div class="swatch-color" style="background:#36E0B0"></div><div class="swatch-info"><b>Mint</b><span>#36E0B0</span></div></div>
-</div></section>
-<section class="id-card"><h2>Tipografia</h2><p>Para manter a leitura moderna e profissional:</p><div class="type-sample"><h3>Space Grotesk — títulos</h3><p>Boa presença para títulos, números e chamadas.</p></div><div class="type-sample"><h3 style="font-family:Inter,system-ui">Inter — textos</h3><p>Clara para descrições, menus, botões e conteúdo.</p></div><div class="type-sample"><h3 style="font-family:Poppins,system-ui">Poppins — alternativa</h3><p>Opção mais amigável para marcas comerciais.</p></div></section>
-<section class="id-card"><h2>Elementos da marca</h2><ul><li>Logo EC WebDev com símbolo geométrico próprio.</li><li>Linhas finas, brilho azul e cartões com profundidade.</li><li>Botões com CTA claro e destaque para WhatsApp.</li><li>Ícones simples e consistentes.</li><li>Imagens com bordas arredondadas e molduras discretas.</li></ul></section>
-<section class="id-card"><h2>Opções para cada cliente</h2><div class="choice-list"><div><b>Paleta</b><span>Tech Blue, Verde Moderno, Claro Profissional, Preto & Dourado.</span></div><div><b>Estrutura</b><span>Landing Page, site institucional, portfólio, cardápio/serviços ou página de campanha.</span></div><div><b>Contato</b><span>WhatsApp, formulário, telefone, e-mail, redes sociais e mapa.</span></div><div><b>Conteúdo</b><span>Serviços, sobre, diferenciais, galeria, FAQ, depoimentos e projetos.</span></div><div><b>Estilo</b><span>Minimalista, tecnológico, corporativo, criativo ou elegante.</span></div></div></section>
+<section class="id-hero">
+<img src="assets/ec-webdev-logo.svg" alt="Logo EC WebDev">
+<div class="ec-label">Sistema de identidade visual · v15</div>
+<h1>Explore, teste e monte a direção da sua marca.</h1>
+<p>Esta página deixou de ser apenas um documento. Agora funciona como um mini laboratório de identidade: você pode testar cores, fontes, estilo, nome e componentes e ver a proposta mudar ao vivo.</p>
+<div class="id-actions"><a class="ec-btn primary" href="docs/EC-WebDev-Identidade-Visual.docx" download>Baixar guia DOCX →</a><button class="ec-btn secondary" onclick="window.print()">Imprimir / salvar PDF</button></div>
+</section>
+
+<div class="id-tabs" role="tablist">
+<button class="id-tab active" data-tab="marca">Marca</button><button class="id-tab" data-tab="paleta">Paleta</button><button class="id-tab" data-tab="tipografia">Tipografia</button><button class="id-tab" data-tab="componentes">Componentes</button><button class="id-tab" data-tab="laboratorio">Laboratório</button><button class="id-tab" data-tab="guia">Guia de uso</button>
 </div>
-<section class="id-card" style="margin-top:18px"><h2>Princípios</h2><div class="ec-process"><article><b>01</b><h3>Clareza</h3><p>O visitante precisa entender rapidamente o negócio.</p></article><article><b>02</b><h3>Consistência</h3><p>Cores, fontes e componentes seguem um mesmo sistema.</p></article><article><b>03</b><h3>Responsividade</h3><p>A experiência deve funcionar em celular, tablet e desktop.</p></article><article><b>04</b><h3>Conversão</h3><p>Chamadas para ação devem ser visíveis e objetivas.</p></article><article><b>05</b><h3>Evolução</h3><p>A estrutura deve permitir novas páginas e recursos.</p></article></div></section>
+
+<section id="marca" class="id-panel active">
+<div class="id-grid">
+<section class="id-card"><h2>Personalidade</h2><p>A EC WebDev foi construída para comunicar uma presença tecnológica, organizada, acessível e em evolução — adequada a um projeto autoral de desenvolvimento web.</p><div class="choice-list"><div><b>Moderna</b><span>Interfaces atuais, limpas e com movimento controlado.</span></div><div><b>Direta</b><span>Informação organizada e chamadas para ação claras.</span></div><div><b>Flexível</b><span>A identidade pode se adaptar ao negócio de cada cliente.</span></div></div></section>
+<section class="id-card"><h2>Logo & área de respiro</h2><p>Use a marca com espaço ao redor para preservar legibilidade. Evite distorcer, inclinar ou aplicar efeitos que prejudiquem o símbolo.</p><img src="assets/ec-webdev-logo.svg" alt="Logo" style="max-width:280px;width:100%;padding:35px;background:#020812;border-radius:18px;border:1px solid var(--ec-line)"></section>
+</div></section>
+
+<section id="paleta" class="id-panel"><div class="id-card"><h2>Paleta oficial</h2><p>Clique em uma cor para copiá-la para a área de transferência.</p><div class="swatches" id="swatches"></div><div class="live-note" id="copyStatus">Clique em qualquer amostra.</div></div></section>
+
+<section id="tipografia" class="id-panel"><div class="id-grid">
+<section class="id-card"><h2>Famílias</h2><div class="font-sample" style="font-family:'Space Grotesk',system-ui"><h3>Space Grotesk</h3><p>Títulos, hero, números e chamadas.</p></div><div class="font-sample" style="font-family:Inter,system-ui"><h3>Inter</h3><p>Textos, menus, descrições e interfaces.</p></div><div class="font-sample" style="font-family:Poppins,system-ui"><h3>Poppins</h3><p>Alternativa para uma personalidade mais amigável.</p></div></section>
+<section class="id-card"><h2>Hierarquia</h2><div class="token-row"><b>H1</b><code>clamp(2.6rem, 6vw, 5.2rem)</code></div><div class="token-row"><b>H2</b><code>2rem / peso 800</code></div><div class="token-row"><b>Texto</b><code>0.9–1rem / line-height 1.7</code></div><div class="token-row"><b>Botão</b><code>peso 800 / raio 10–14px</code></div></section>
+</div></section>
+
+<section id="componentes" class="id-panel"><div class="id-grid">
+<section class="id-card"><h2>Componentes essenciais</h2><div class="choice-list"><div><b>CTA primário</b><span>Alta prioridade: orçamento, WhatsApp, contato.</span></div><div><b>CTA secundário</b><span>Para conhecer portfólio, detalhes e identidade.</span></div><div><b>Card</b><span>Informações agrupadas com borda sutil e profundidade.</span></div><div><b>Badge</b><span>Para status, categorias, tecnologias e destaques.</span></div></div></section>
+<section class="id-card"><h2>Princípios</h2><div class="choice-list"><div><b>Clareza</b><span>O visitante entende rapidamente o negócio.</span></div><div><b>Consistência</b><span>Cores, fontes e componentes seguem um sistema.</span></div><div><b>Responsividade</b><span>A experiência funciona em celular, tablet e desktop.</span></div><div><b>Conversão</b><span>Chamadas para ação são visíveis e objetivas.</span></div></div></section>
+</div></section>
+
+<section id="laboratorio" class="id-panel">
+<div class="interactive">
+<aside class="controls">
+<div class="control"><label for="brandName">Nome da marca</label><input id="brandName" type="text" value="EC WebDev"></div>
+<div class="control"><label for="headline">Título da apresentação</label><input id="headline" type="text" value="Ideias em sites."></div>
+<div class="control"><label for="fontChoice">Tipografia</label><select id="fontChoice"><option value="Space Grotesk">Space Grotesk</option><option value="Inter">Inter</option><option value="Poppins">Poppins</option><option value="system-ui">System UI</option></select></div>
+<div class="control"><label for="styleChoice">Estilo</label><select id="styleChoice"><option value="tech">Tecnológico</option><option value="clean">Claro e minimalista</option><option value="corporate">Corporativo</option><option value="creative">Criativo</option></select></div>
+<div class="control"><label>Cor principal</label><input id="primaryColor" type="color" value="#16B8FF"></div>
+<div class="control"><label>Cor de destaque</label><input id="accentColor" type="color" value="#62DCFF"></div>
+<div class="control"><label>Elementos na página</label><div class="check-grid"><label class="check"><input type="checkbox" class="part" value="Serviços" checked> Serviços</label><label class="check"><input type="checkbox" class="part" value="Projetos" checked> Projetos</label><label class="check"><input type="checkbox" class="part" value="Sobre" checked> Sobre</label><label class="check"><input type="checkbox" class="part" value="Contato" checked> Contato</label></div></div>
+<button class="copy-btn" onclick="copyBrandCSS()">Copiar CSS da direção atual</button>
+<div class="live-note">As alterações são aplicadas instantaneamente à prévia.</div>
+</aside>
+<div class="brand-preview" id="brandPreview">
+<div class="brand-nav"><div class="brand-logo" id="pvLogo">EC <span>WebDev</span></div><small id="pvStyle">Tecnológico</small></div>
+<div class="brand-hero"><h3 id="pvHeadline">Ideias em sites.</h3><p>Uma direção visual criada no laboratório para visualizar como a marca pode se apresentar.</p><a class="brand-btn" id="pvBtn">Quero conhecer</a></div>
+<div class="brand-sections" id="pvSections"></div>
+</div>
+</div>
+</section>
+
+<section id="guia" class="id-panel"><div class="id-grid">
+<section class="id-card"><h2>Como usar a identidade</h2><ol><li>Escolha uma direção visual.</li><li>Defina uma paleta que tenha contraste suficiente.</li><li>Use uma família para títulos e outra para textos quando fizer sentido.</li><li>Repita componentes e espaçamentos para criar consistência.</li><li>Adapte a linguagem à empresa sem perder a organização.</li></ol></section>
+<section class="id-card"><h2>Para projetos de clientes</h2><p>O laboratório é uma ferramenta de referência. A direção escolhida pode ser enviada como briefing e depois refinada no desenvolvimento final.</p><div class="ec-actions"><a class="ec-btn primary" href="landing-page.html#laboratorio">Abrir Laboratório da Landing</a><a class="ec-btn secondary" href="landing-page.html#contato">Falar sobre um projeto</a></div></section>
+</div></section>
 </div></main>
-<footer class="id-footer"><div class="ec-container">EC WebDev — Identidade Visual · <a href="landing-page.html">voltar ao site</a> · <a href="docs/EC-WebDev-Identidade-Visual.docx" download>baixar DOCX</a></div></footer>
+
+<footer class="id-footer"><div class="ec-container">EC WebDev — Identidade Visual Interativa · <a href="landing-page.html">voltar ao site</a> · <a href="docs/EC-WebDev-Identidade-Visual.docx" download>baixar DOCX</a></div></footer>
+
+<script>
+const palettes=[
+['Midnight','#020812'],['Navy','#061323'],['Electric Blue','#16B8FF'],['Royal Blue','#176CFF'],['Cyan','#62DCFF'],['Mint','#36E0B0']
+];
+const sw=document.getElementById('swatches');
+palettes.forEach(([name,hex])=>{
+ const el=document.createElement('div'); el.className='swatch'; el.innerHTML=`<div class="swatch-color" style="background:${hex}"></div><div class="swatch-info"><b>${name}</b><span>${hex}</span></div>`;
+ el.onclick=async()=>{try{await navigator.clipboard.writeText(hex);document.getElementById('copyStatus').textContent=`${name} — ${hex} copiado.`}catch{document.getElementById('copyStatus').textContent=`${name}: ${hex}`}}; sw.appendChild(el);
+});
+document.querySelectorAll('.id-tab').forEach(btn=>btn.addEventListener('click',()=>{
+ document.querySelectorAll('.id-tab').forEach(b=>b.classList.remove('active'));document.querySelectorAll('.id-panel').forEach(p=>p.classList.remove('active'));
+ btn.classList.add('active');document.getElementById(btn.dataset.tab).classList.add('active');
+}));
+const root=document.documentElement, name=document.getElementById('brandName'), headline=document.getElementById('headline'), font=document.getElementById('fontChoice'), style=document.getElementById('styleChoice'), primary=document.getElementById('primaryColor'), accent=document.getElementById('accentColor');
+function render(){
+ root.style.setProperty('--preview-primary',primary.value);root.style.setProperty('--preview-accent',accent.value);
+ document.getElementById('pvLogo').innerHTML=`${(name.value||'Marca').split(' ')[0]} <span>${(name.value||'Marca').split(' ').slice(1).join(' ')}</span>`;
+ document.getElementById('pvHeadline').textContent=headline.value||'Seu próximo site.';
+ document.getElementById('pvStyle').textContent=style.options[style.selectedIndex].text;
+ document.getElementById('brandPreview').style.fontFamily=font.value;
+ const bg=style.value==='clean'?'#f7fbff':style.value==='corporate'?'#0b1220':style.value==='creative'?'#12071f':'#020812';
+ const surface=style.value==='clean'?'#ffffff':style.value==='corporate'?'#111c2e':style.value==='creative'?'#1d0b2e':'#061323';
+ root.style.setProperty('--preview-bg',bg);root.style.setProperty('--preview-surface',surface);
+ const pv=document.getElementById('pvSections');pv.innerHTML='';
+ document.querySelectorAll('.part:checked').forEach((c,i)=>{const d=document.createElement('div');d.className='brand-block';d.innerHTML=`<b>${c.value}</b><span>Bloco demonstrativo</span>`;pv.appendChild(d)});
+ document.getElementById('brandPreview').style.color=style.value==='clean'?'#14212e':'#f3f8fc';
+}
+[name,headline,font,style,primary,accent].forEach(el=>el.addEventListener('input',render));document.querySelectorAll('.part').forEach(el=>el.addEventListener('change',render));render();
+async function copyBrandCSS(){
+ const css=`:root{--brand-primary:${primary.value};--brand-accent:${accent.value};--brand-font:'${font.value}',system-ui;} /* ${style.options[style.selectedIndex].text} */`;
+ try{await navigator.clipboard.writeText(css);alert('CSS da direção visual copiado!')}catch{prompt('Copie o CSS:',css)}
+}
+</script>
+<!-- v17 — Chat direto com WhatsApp -->
+<div class="ec-wa-chat" id="ecWaChat">
+  <div class="ec-wa-panel" role="dialog" aria-label="Chat EC WebDev">
+    <div class="ec-wa-head">
+      <div class="ec-wa-avatar"><img src="assets/ec-webdev-logo.svg" alt="EC WebDev"></div>
+      <div class="ec-wa-head-copy"><strong>EC WebDev</strong><span class="ec-wa-status"><i></i> Atendimento pelo WhatsApp</span></div>
+      <button class="ec-wa-close" type="button" id="ecWaClose" aria-label="Fechar chat">×</button>
+    </div>
+    <div class="ec-wa-body">
+      <div class="ec-wa-welcome"><b>Olá! 👋</b>Quer conversar sobre um site, tirar uma dúvida ou mandar uma ideia? Escolha uma opção ou escreva sua mensagem abaixo.</div>
+      <div class="ec-wa-quick" aria-label="Assuntos rápidos">
+        <button type="button" data-wa-msg="Olá Eugenio! Quero criar um site e gostaria de saber como funciona o projeto.">💻 Quero criar um site</button>
+        <button type="button" data-wa-msg="Olá Eugenio! Montei uma referência no Laboratório Visual e quero conversar sobre o desenvolvimento.">🎨 Tenho uma referência visual</button>
+        <button type="button" data-wa-msg="Olá Eugenio! Tenho uma dúvida sobre a EC WebDev e gostaria de conversar.">💬 Tenho uma dúvida</button>
+      </div>
+      <div class="ec-wa-compose"><input id="ecWaInput" type="text" maxlength="500" placeholder="Escreva sua mensagem..." autocomplete="off"><button class="ec-wa-send" id="ecWaSend" type="button" aria-label="Abrir WhatsApp com mensagem">➜</button></div>
+    </div>
+    <div class="ec-wa-footer">Ao enviar, o WhatsApp será aberto com a mensagem preenchida. Você continua a conversa por lá.</div>
+  </div>
+  <div class="ec-wa-pulse" aria-hidden="true"></div>
+  <button class="ec-wa-bubble" id="ecWaOpen" type="button" aria-label="Abrir chat com a EC WebDev" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.84 11.84 0 0 0 12.07 0C5.54 0 .23 5.31.23 11.84c0 2.09.55 4.13 1.6 5.93L.13 24l6.37-1.67a11.83 11.83 0 0 0 5.57 1.42h.01c6.53 0 11.84-5.31 11.84-11.84 0-3.17-1.23-6.15-3.4-8.43ZM12.08 21.7h-.01a9.82 9.82 0 0 1-5.01-1.37l-.36-.21-3.78.99 1.01-3.69-.23-.38a9.84 9.84 0 0 1-1.51-5.2C2.19 6.4 6.62 1.97 12.08 1.97c2.64 0 5.12 1.03 6.99 2.9a9.81 9.81 0 0 1 2.9 6.98c0 5.46-4.44 9.89-9.89 9.85Zm5.42-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.5-1.76-1.68-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg><span class="ec-wa-badge" aria-hidden="true"></span>
+  </button>
+</div>
+<script>
+(function(){const chat=document.getElementById('ecWaChat');if(!chat)return;const open=document.getElementById('ecWaOpen'),close=document.getElementById('ecWaClose'),input=document.getElementById('ecWaInput'),send=document.getElementById('ecWaSend'),phone='5591985687099';function setOpen(state){chat.classList.toggle('open',state);open.setAttribute('aria-expanded',state?'true':'false');if(state)setTimeout(()=>input.focus(),120)}function go(message){const text=String(message||'').trim();if(!text)return;window.open('https://wa.me/'+phone+'?text='+encodeURIComponent(text),'_blank','noopener')}open.addEventListener('click',()=>setOpen(!chat.classList.contains('open')));close.addEventListener('click',()=>setOpen(false));chat.querySelectorAll('[data-wa-msg]').forEach(btn=>btn.addEventListener('click',()=>go(btn.dataset.waMsg)));send.addEventListener('click',()=>go(input.value));input.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();go(input.value)}});document.addEventListener('keydown',e=>{if(e.key==='Escape')setOpen(false)})})();
+</script>
+
+
 </body></html>
