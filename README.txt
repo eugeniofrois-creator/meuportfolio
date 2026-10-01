@@ -1,14 +1,16 @@
-EC WEBDEV — PORTFÓLIO
+EC WebDev — versão 10
 
-Landing page autoral para apresentação de desenvolvimento web.
+Conteúdo:
+- landing-page.html — apresentação comercial/autoral
+- identidade-visual.html — guia visual navegável
+- docs/EC-WebDev-Identidade-Visual.docx — documento editável para baixar
+- assets/ec-webdev-logo.svg — logo
+- assets/ec-webdev-logo.png — logo para documentos
+- assets/ec-webdev-showcase*.png — imagens demonstrativas
+- ec-webdev.css — identidade visual
+- script.js — interações
 
-Arquivos principais:
-- landing-page.html — página EC WebDev
-- ec-webdev.css — identidade visual exclusiva da landing page
-- assets/ec-webdev-logo.svg — logo EC WebDev
-- assets/ec-webdev-showcase-wide.png — imagem demonstrativa gerada para a apresentação
-- index.html — portfólio pessoal
-- curriculo.html — currículo profissional
-- style.css / script.js — recursos das demais páginas
+A seção Mercado & concorrentes apresenta alternativas tecnológicas (Canva, Hostinger, WordPress e Wix) e links para seus sites oficiais.
 
-A seção de mercado cita Canva, Hostinger e WordPress como alternativas tecnológicas disponíveis para criação de sites. Isso não significa que sejam clientes, parceiros ou concorrentes locais confirmados da EC WebDev.
+
+v11: A Landing Page agora possui um visualizador interno do Guia de Identidade Visual, com acesso pelo botão “Ver guia aqui mesmo”, além de links para a página completa e download do DOCX.
