@@ -1,0 +1,6 @@
+EC WebDev v22 — Landing e mini páginas
+
+Extraia na mesma pasta do projeto e substitua os arquivos. Início da EC WebDev: landing-page.html.
+Serviços, Processo, Projetos, Mercado, Identidade e personalização, Sobre e YouTube agora têm páginas próprias. Use a seta para voltar ao início. Configurador e Laboratório continuam disponíveis na página de opções de projeto.
+
+Verificações: sintaxe JavaScript de todas as páginas, links e arquivos locais, IDs únicos, separação de conteúdo, navegação simulada e integridade ZIP. Teste visual em navegador não disponível neste ambiente.

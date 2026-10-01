@@ -1,0 +1,6 @@
+EC WebDev v21 — Telas separadas
+
+Extraia os arquivos na mesma pasta do projeto e substitua os antigos.
+Na seção Identidade, use Personalizar meu site. Avance para o Laboratório e use a seta Voltar para retornar. As escolhas são preservadas enquanto a página está aberta. O botão Voltar do navegador também funciona.
+
+Verificações: sintaxe JavaScript, fluxo de navegação simulado, retorno à posição anterior, arquivos locais e integridade ZIP. Não foi possível executar testes visuais em navegador neste ambiente.
