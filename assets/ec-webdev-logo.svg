@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">EC WebDev</title>
+  <desc id="desc">Logo EC WebDev — ideias em sites</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20b8ff"/>
+      <stop offset="1" stop-color="#1768ff"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(8 18)">
+    <path d="M8 38h73l-13 15H34l-8 9h42l-13 15H8z" fill="url(#g)"/>
+    <path d="M92 8h72l-16 18h-42l-8 9h42l-15 17H76l-16 18H37l20-23 13-14z" fill="url(#g)"/>
+    <path d="M77 65h55l-16 18H61z" fill="#20b8ff" opacity=".9"/>
+  </g>
+  <text x="190" y="75" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">EC <tspan fill="#20b8ff">WebDev</tspan></text>
+  <text x="193" y="108" fill="#9eb4c9" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="5">IDEIAS EM SITES</text>
+</svg>
