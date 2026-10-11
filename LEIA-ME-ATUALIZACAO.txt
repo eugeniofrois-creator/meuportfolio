@@ -1,11 +1,13 @@
-EC CRIAÇÕES V30 — APLICAR NA PASTA CORRETA
+EC CRIAÇÕES V31 — APLICAR NA PASTA CORRETA
 
 Feche o painel antigo. Extraia este ZIP na pasta Desenvolvimento WEB, onde já existe Painel-EC, substituindo os arquivos. Preserve config.local.json, projeto e backups; eles não estão no ZIP.
 
 Dê dois cliques em Atualizar-Site.cmd. Ele abre o painel novo, usa a pasta conectada salva, copia os arquivos corrigidos e publica no GitHub. Se necessário, configure a pasta pelo botão Escolher pasta já clonada e clique em Aplicar atualização deste pacote e publicar.
 
 A pasta ecwebdev antiga não será mais escolhida quando houver o pacote novo na raiz. O nome da pasta não precisa mudar.
-Aguarde a Action concluir. O rodapé do site atualizado mostra EC Criações · v30.
+Aguarde a Action concluir. O rodapé do site atualizado mostra EC Criações · v31.
 Se abrir login, autorize a conta eugeniofrois-creator no navegador.
 
 Inclui o laboratório e as demonstrações da v29, com o aplicador corrigido. Verificações de código, links, seleção do pacote e sincronização passaram. Interface completa no navegador e iniciador Windows ainda precisam ser conferidos no seu PC.
+
+Robô EC: respostas automáticas dentro da página, roteiro de orçamento e envio opcional ao WhatsApp. Não exige API.
