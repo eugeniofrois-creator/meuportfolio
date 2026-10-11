@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "images": {
+    "ec-simbolo": {
+      "src": "assets/ec-simbolo.svg",
+      "alt": "Símbolo EC",
+      "revision": "a8a3a9cd60"
+    },
+    "ec-webdev-logo": {
+      "src": "assets/ec-webdev-logo.svg",
+      "alt": "EC Criações",
+      "revision": "b72f14a903"
+    },
+    "ec-webdev-showcase": {
+      "src": "assets/ec-webdev-showcase.svg",
+      "alt": "Apresentação visual EC Criações",
+      "revision": "eff52d75c2"
+    }
+  }
+}

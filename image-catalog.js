@@ -1,0 +1,2 @@
+/* JSON centraliza caminhos; src no HTML mantém funcionamento sem fetch. */
+(async()=>{try{const response=await fetch('content/images.json',{cache:'no-cache'});if(!response.ok)return;const catalog=await response.json();for(const img of document.querySelectorAll('img[data-image]')){const item=catalog.images?.[img.dataset.image];if(!item||!/^assets\/[\w./-]+$/.test(item.src)||item.src.includes('..'))continue;img.src=item.src+(item.revision?'?v='+encodeURIComponent(item.revision):'');if(item.alt)img.alt=item.alt;}}catch{}})();

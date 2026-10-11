@@ -1,0 +1,42 @@
+EC WEBDEV — COMO EDITAR SEU SITE
+
+1. Faça uma cópia do pacote antes de editar.
+2. Abra a pasta no VS Code. Para testar, use um servidor local.
+3. landing-page.html: título inicial, apresentação, opções e contato.
+4. servicos.html: o que você oferece e o que está incluído.
+5. projetos.html: projetos reais, links e o que você desenvolveu.
+6. sobre.html: apresentação e trajetória.
+7. processo.html: etapas de atendimento e entrega.
+8. opcoes-projeto.html: configurador e laboratório.
+9. ec-webdev.css: cores, tamanhos e aparência da landing.
+10. assets/ec-simbolo.svg e .png: símbolo EC original recuperado.
+11. assets/ec-webdev-logo.svg e .png: assinatura horizontal EC WebDev.
+12. favicon.svg: símbolo na aba do navegador.
+
+Para publicar no GitHub Pages, envie o CONTEÚDO desta pasta ao repositório,
+preservando assets/ e docs/. A página inicial da landing é landing-page.html.
+Antes de publicar, confira no celular, teste contato e abra todas as mini páginas.
+O pacote mantém o laboratório existente; esta atualização é da marca.
+O DOCX em docs/ inclui a nova marca EC.
+A apresentação visual usa a nova marca EC em SVG.
+
+MELHORIAS EM ORDEM DE PRIORIDADE
+1. Corrigir o laboratório: manter cores/fontes ao avançar e garantir exportação.
+2. Deixar a proposta inicial específica: sites para pequenos negócios e profissionais.
+3. Mostrar três projetos reais, com objetivo, resultado e link funcionando.
+4. Explicar escopo: páginas, revisão, publicação e o que exige serviço adicional.
+5. Manter um botão principal de contato, com texto claro.
+6. Usar animações discretas e priorizar leitura e navegação no celular.
+7. Criar uma galeria com modelos simples: serviço local, profissional e catálogo.
+
+ROTINA PARA APRENDER E MANTER SOZINHO
+Altere uma seção por vez. Comece por textos, depois imagens, depois CSS.
+Não altere o laboratório sem entender o JavaScript correspondente.
+Registre cada mudança no GitHub com uma descrição curta.
+
+ATUALIZAÇÃO V25
+A marca EC agora aparece também na trajetória e no currículo, com link para a landing.
+O chat nessas duas páginas recebeu seus estilos próprios.
+content/images.json organiza as imagens; image-catalog.js carrega o catálogo.
+ec-favicon.svg evita reutilizar o endereço antigo do ícone em cache.
+Use o Painel-EC para editar a pasta conectada ao GitHub.
