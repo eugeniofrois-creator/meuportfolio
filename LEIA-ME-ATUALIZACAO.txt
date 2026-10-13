@@ -1,13 +1,14 @@
-EC CRIAÇÕES V31 — APLICAR NA PASTA CORRETA
+EC — Brasil v32 — ATUALIZAÇÃO
 
-Feche o painel antigo. Extraia este ZIP na pasta Desenvolvimento WEB, onde já existe Painel-EC, substituindo os arquivos. Preserve config.local.json, projeto e backups; eles não estão no ZIP.
+1. Feche o painel antigo.
+2. Extraia os arquivos sobre a pasta existente Desenvolvimento WEB, substituindo os arquivos.
+3. Preserve Painel-EC/config.local.json, projeto, backups e a pasta .git. Não estão neste ZIP.
+4. Abra Atualizar-Site.cmd. Ele aplica o pacote na pasta conectada e publica.
+5. No painel, ative Publicação automática para enviar novas edições após 30 segundos sem mudanças, enquanto ele estiver aberto.
 
-Dê dois cliques em Atualizar-Site.cmd. Ele abre o painel novo, usa a pasta conectada salva, copia os arquivos corrigidos e publica no GitHub. Se necessário, configure a pasta pelo botão Escolher pasta já clonada e clique em Aplicar atualização deste pacote e publicar.
+Repositório exclusivo: eugeniofrois-creator/meuportfolio.
+Se a pasta não estiver configurada, escolha a pasta já clonada desse repositório e use Aplicar atualização deste pacote e publicar. Não escolha o repositório do outro portfólio.
+Na aba Actions, abra a versão pública e confira a publicação. O endereço público permanece o mesmo.
+Login e identidade Git precisam estar configurados no seu PC. O pacote não contém credenciais e não cria repositórios remotamente.
 
-A pasta ecwebdev antiga não será mais escolhida quando houver o pacote novo na raiz. O nome da pasta não precisa mudar.
-Aguarde a Action concluir. O rodapé do site atualizado mostra EC Criações · v31.
-Se abrir login, autorize a conta eugeniofrois-creator no navegador.
-
-Inclui o laboratório e as demonstrações da v29, com o aplicador corrigido. Verificações de código, links, seleção do pacote e sincronização passaram. Interface completa no navegador e iniciador Windows ainda precisam ser conferidos no seu PC.
-
-Robô EC: respostas automáticas dentro da página, roteiro de orçamento e envio opcional ao WhatsApp. Não exige API.
+Os arquivos e a lógica de sincronização foram verificados. A interface Windows deve ser conferida no seu PC.

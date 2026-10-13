@@ -1,0 +1,13 @@
+ATUALIZAÇÃO DO PORTFÓLIO BRASILEIRO
+1. Feche o painel desta versão se ele estiver aberto.
+2. Extraia este pacote por cima da MESMA pasta usada para este portfólio.
+3. Abra Atualizar-Site.cmd. Ele aplica o pacote na pasta de repositório já configurada e tenta publicar.
+4. Se pedir conexão ou identidade do Git, conclua no painel e clique Aplicar atualização deste pacote e publicar.
+5. Aguarde a mensagem de envio concluído. O GitHub Pages pode levar alguns minutos para atualizar.
+
+Os portfólios português e inglês usam pastas e repositórios separados.
+Extrair o ZIP, sozinho, não publica. O atalho faz a aplicação e o envio sem copiar manualmente os arquivos.
+O automático do painel monitora a pasta do clone e funciona somente com o painel aberto e ativado.
+Configurações locais, credenciais, pasta projeto e backups existentes não vêm neste ZIP e não serão substituídos pelo pacote.
+O painel cria backups dos arquivos substituídos quando aplica o pacote em um clone separado.
+Nenhuma publicação na sua conta foi feita nesta entrega.
