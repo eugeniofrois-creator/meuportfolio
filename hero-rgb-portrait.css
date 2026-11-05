@@ -1,5 +1,5 @@
-/* Hero preparado para a arte ilustrada do usuário. O arquivo real precisa estar em assets/ec-background.jpg */
-.ec-hero-v3{position:relative;isolation:isolate;background:linear-gradient(90deg,#060a20fa 0%,#060a20d9 26%,#060a2070 49%,#060a2010 80%),url("assets/ec-background.jpg") center 48%/cover no-repeat,#080d27!important;overflow:hidden}
+/* Hero preparado para a arte ilustrada do usuário. Imagem enviada ao repositório: assets/download.jfif */
+.ec-hero-v3{position:relative;isolation:isolate;background:linear-gradient(90deg,#060a20fa 0%,#060a20d9 26%,#060a2070 49%,#060a2010 80%),url("assets/download.jfif") center 48%/cover no-repeat,#080d27!important;overflow:hidden}
 .ec-hero-v3:before{display:none!important}
 .ec-hero-v3 .ec-hero-image-zone{display:none!important}
 .ec-hero-v3 .ec-hero-copy{position:relative;z-index:2}
