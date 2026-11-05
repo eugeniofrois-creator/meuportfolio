@@ -1,0 +1,11 @@
+/* Fotografia do hero da arte aprovada, com elementos HTML interativos por cima.
+   O arquivo assets/ec-hero-fundo.webp deve ser publicado junto a este CSS. */
+@media(min-width:768px){
+.ec-hero-v3{position:relative;isolation:isolate;min-height:365px!important;background:linear-gradient(90deg,#050b20 0%,#050b20e8 26%,#080e2a42 51%,#080e2a00 85%),url("assets/ec-hero-fundo.webp") center right/cover no-repeat,#080d27!important}
+.ec-hero-v3:before{display:none!important}
+.ec-hero-v3 .ec-hero-image-zone{display:none!important}
+.ec-hero-v3 .ec-hero-copy{width:55%!important;max-width:720px}
+.ec-hero-v3 .row{min-height:320px!important}
+}
+@media(max-width:767px){.ec-hero-v3{background:linear-gradient(180deg,#060a1cdb,#080d26ee),url("assets/ec-hero-fundo.webp") center right/cover no-repeat,#080d26!important}.ec-hero-v3 .ec-hero-image-zone{display:none!important}}
+@media(prefers-reduced-motion:no-preference){.ec-hero-v3 .eyebrow{animation:ec-appear .7s ease-out both}.ec-hero-v3 h1{animation:ec-appear .8s .1s ease-out both}.ec-hero-v3 .lead{animation:ec-appear .8s .2s ease-out both}.ec-award-showcase{animation:ec-appear .8s .15s ease-out both}.ec-hero-v3 .btn-modern:hover,.ec-award-actions .btn-modern:hover{transform:translateY(-3px);filter:brightness(1.12)}@keyframes ec-appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}}
